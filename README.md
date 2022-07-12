@@ -16,5 +16,5 @@ python mangago.py
 The manga will be downloaded as a PDF in the current working direcory
 
 ## What next?
-If you have suggestions, feel free to [open an issue](https://github.com/BillyDoesDev/Minesweeper/issues) or [create a pr](https://github.com/BillyDoesDev/Minesweeper/pulls).</br>
+If you have suggestions, feel free to [open an issue](https://github.com/BillyDoesDev/manga-cli/issues) or [create a pr](https://github.com/BillyDoesDev/manga-cli/pulls).</br>
 Feel free to contact me for further discussions at DarkKnight450@protonmail.com</br>
