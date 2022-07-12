@@ -98,10 +98,10 @@ for chapter_no, chapter in enumerate(chapters):
         page_url = "/".join(chapter_url.split("/")[:-2]) + f"/pg-{page}/"
         if not requests.get(page_url, headers=headers).ok:
             # page_url = "/".join(chapter_url.split("/")[:-2]) + f"/{page}/"
-            page_url = chapter_url + str(page)
+            page_url = f"{chapter_url}{page}" if chapter_url.endswith("/") else f"{chapter_url}/{page}"
         
         # filename = chapter_url.replace('/', '-')[len(base)+3:] + f'{page}'
-        # print(page_url, filename)
+        # print(page_url)
 
         driver.get(page_url)
         driver.maximize_window()
