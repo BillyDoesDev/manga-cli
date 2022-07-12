@@ -13,7 +13,7 @@ cd manga-cli
 pip install -r requirements.txt
 python mangago.py
 ```
-The manga will be downloaded as a PDF in the current woeking direcory
+The manga will be downloaded as a PDF in the current working direcory
 
 ## What next?
 If you have suggestions, feel free to [open an issue](https://github.com/BillyDoesDev/Minesweeper/issues) or [create a pr](https://github.com/BillyDoesDev/Minesweeper/pulls).</br>
