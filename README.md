@@ -6,10 +6,11 @@ https://user-images.githubusercontent.com/64155209/178423831-95513dda-bcc5-4ed8-
 > Note: The script scrapes information from the site https://mangago.me, so make sure that the manga you're looking for is available there.
 
 ## Installation
-Simply clone the repository, cd into it and run `mangago.py`
+Simply clone the repository, cd into it, install the dependencies and run `mangago.py`
 ```sh
 https://github.com/BillyDoesDev/manga-cli.git
 cd manga-cli
+pip install -r requirements.txt
 python mangago.py
 ```
 The manga will be downloaded as a PDF in the current woeking direcory
