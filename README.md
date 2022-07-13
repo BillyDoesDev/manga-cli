@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/64155209/178423831-95513dda-bcc5-4ed8-
 ## Installation
 Simply clone the repository, cd into it, install the dependencies and run `mangago.py`
 ```sh
-https://github.com/BillyDoesDev/manga-cli.git
+git clone https://github.com/BillyDoesDev/manga-cli.git
 cd manga-cli
 pip install -r requirements.txt
 python mangago.py
